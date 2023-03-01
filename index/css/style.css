@@ -1,0 +1,64 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2022/10/31, 下午 03:20:08
+    Author     : F1686493
+*/
+body,div,dl,dt,dd,ul,ol,h1,h2,h3,h4,h5,code,form,fieldset,legend,input,textarea,p,blockquote,th,td
+{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-weight:normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  min-width: 1226px;
+}
+hr{
+  width: 250px;
+  float:right;
+}
+a{
+  text-decoration: none;
+}
+ul,ol{
+  list-style: none;
+}
+i{
+  font-style: normal;
+}
+
+.nav{
+  background-color:#66CCFF;
+  display: flex;
+  height: 250px;
+}
+.nav ul{
+  margin-top: 20px;
+}
+.nav ul a{
+  color: white;
+  list-style-type:none;
+  overflow: hidden;
+  text-decoration: none;
+}
+.nav li{
+  list-style-type:none;
+  display: block;
+  float: left;
+  width: 110px;
+  height: 30px;
+  line-height: 30px;
+  text-align:center;
+  color: white;
+  cursor: pointer;
+}
+.nav li:hover{
+  background-color: #111;
+}

@@ -1,0 +1,89 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2022/10/31, 下午 02:21:59
+    Author     : F1686493
+*/
+*{
+  margin: 0px;
+  padding: 0;
+  font-family: "微軟雅黑";
+  color: #333333;
+
+}
+body{
+  position: relative;
+}
+a:link{
+  font-size: 1.25rem;
+  text-align: center;
+  text-decoration: none;
+}
+a:visited{
+
+}
+#menu{
+  margin-right: 1.25rem;
+  width: 120px;
+  height: auto;
+  position: fixed;
+  top: 20%;
+  right: 15px;
+  margin-top: -135px;
+}
+#menu ul{
+  display: block;
+  list-style: none;
+}
+
+#menu ul li a{
+  width: 120px;
+  height: 54px;
+  line-height: 54px;
+  font-family: "楷體";
+  background-color: #fff;
+  color: #1285c9;
+  display: block;
+
+}
+#menu ul li a:hover{
+  background-color: #1271ff;
+  color: #fff;
+  text-decoration: none;
+}
+#title{
+  font-size: 30px;
+  font-family: "華文行楷";
+}
+.list,li{
+  margin: 0;
+  float: left;
+}
+.scroll{
+  padding-top: 300px;
+  text-align: center;
+  margin: 0 auto;
+  width: 270px;
+  height: 180px;
+  overflow: hidden;
+}
+.scroll li{
+  width: 270px;
+  height: 35px;
+  line-height: 30px;
+  margin-left: 26px;
+  list-style: none;
+}
+.scroll li a{
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+.scroll li a:hover{
+  color: #66CCFF;
+}
+textarea{
+  font-size: 1.25rem;
+}
